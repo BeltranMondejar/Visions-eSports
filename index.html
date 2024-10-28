@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visions eSports</title>
+    <link rel="icon" type="image/png" href="/extras/logo_Visions_eSports.png" sizes="32x32">
+    <link rel="stylesheet" href="extras/visions_eSports.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Barra de Navegación -->
+    <nav>
+        <ul>
+            <li><a href="#equipo">Equipo</a></li>
+            <li><a href="#noticias">Noticias</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#estadisticas">Estadísticas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Encabezado -->
+    <section id="encabezado" class="header-section">
+        <div class="header-image"></div>
+        <div class="header-content">
+            <h1>Visions eSports</h1>
+            <p>"Juntos hacia la victoria"</p>
+        </div>
+    </section>
+
+    <!-- Contenedor Principal -->
+    <div class="container">
+
+        <!-- Sección de Equipo -->
+        <section id="equipo" class="team-section">
+            <h2>Conoce a Nuestro Equipo</h2>
+            <div class="team-grid">
+                <div class="player" onclick="openModal('modal8')">
+                    <img src="https://via.placeholder.com/150" alt="CEO">
+                    <h3>VSN Queen</h3>
+                    <p>CEO</p>
+                </div>
+                <div class="player" onclick="openModal('modal9')">
+                    <img src="https://via.placeholder.com/150" alt="CO-CEO">
+                    <h3>VSN Roze</h3>
+                    <p>CEO</p>
+                </div>
+                <div class="player" onclick="openModal('modal7')">
+                    <img src="extras/img/Yo.jpg" alt="Manager">
+                    <h3>VSN MondyXz</h3>
+                    <p>Manager</p>
+                </div>
+                <div class="player" onclick="openModal('modal6')">
+                    <img src="https://via.placeholder.com/150" alt="Coach">
+                    <h3>JarviXx</h3>
+                    <p>Coach</p>
+                </div>
+                <div class="player" onclick="openModal('modal1')">
+                    <img src="https://via.placeholder.com/150" alt="Jugador 1">
+                    <h3>VSN vSovK</h3>
+                    <p>Iniciador / Smoker</p>
+                </div>
+                <div class="player" onclick="openModal('modal2')">
+                    <img src="https://via.placeholder.com/150" alt="Jugador 2">
+                    <h3>VSN Daikiri</h3>
+                    <p>Centinela</p>
+                </div>
+                <div class="player" onclick="openModal('modal3')">
+                    <img src="https://via.placeholder.com/150" alt="Jugador 3">
+                    <h3>VSN Taysu</h3>
+                    <p>Duelista</p>
+                </div>
+                <div class="player" onclick="openModal('modal4')">
+                    <img src="https://via.placeholder.com/150" alt="Jugador 4">
+                    <h3>VSN origiN</h3>
+                    <p>Smoker | IGL</p>
+                </div>
+                <div class="player" onclick="openModal('modal5')">
+                    <img src="https://via.placeholder.com/150" alt="Jugador 5">
+                    <h3>VSN Zorrito</h3>
+                    <p>Iniciador</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal de Jugadores -->
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal1')">&times;</span>
+                <h3>VSN vSovK</h3>
+                <p>Descripción del jugador 1...</p>
+            </div>
+        </div>
+        <div id="modal2" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal2')">&times;</span>
+                <h3>Jugador 2</h3>
+                <p>Descripción del jugador 2...</p>
+            </div>
+        </div>
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal3')">&times;</span>
+                <h3>Jugador 3</h3>
+                <p>Descripción del jugador 3...</p>
+            </div>
+        </div>
+        <div id="modal4" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal4')">&times;</span>
+                <h3>Jugador 4</h3>
+                <p>Descripción del jugador 4...</p>
+            </div>
+        </div>
+
+        <!-- Sección de Noticias -->
+        <section id="noticias" class="news-section">
+            <h2>Últimas Noticias</h2>
+            <div class="news-item" onclick="openModal('modal5')">
+                <h3>Noticia 1</h3>
+                <p>Resumen de la noticia 1...</p>
+            </div>
+            <div class="news-item" onclick="openModal('modal6')">
+                <h3>Noticia 2</h3>
+                <p>Resumen de la noticia 2...</p>
+            </div>
+        </section>
+
+        <!-- Modal de Noticias -->
+        <div id="modal5" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal5')">&times;</span>
+                <h3>Noticia 1</h3>
+                <p>Detalles de la noticia 1...</p>
+            </div>
+        </div>
+        <div id="modal6" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal6')">&times;</span>
+                <h3>Noticia 2</h3>
+                <p>Detalles de la noticia 2...</p>
+            </div>
+        </div>
+
+        <!-- Sección de Galería -->
+        <section id="galeria" class="gallery-section">
+            <h2>Galería</h2>
+            <div class="gallery-grid">
+                <img src="https://via.placeholder.com/200" alt="Imagen 1" onclick="openModal('modal7')">
+                <img src="https://via.placeholder.com/200" alt="Imagen 2" onclick="openModal('modal8')">
+                <img src="https://via.placeholder.com/200" alt="Imagen 3" onclick="openModal('modal9')">
+                <img src="https://via.placeholder.com/200" alt="Imagen 4" onclick="openModal('modal10')">
+            </div>
+        </section>
+
+        <!-- Modal de Imágenes -->
+        <div id="modal7" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal7')">&times;</span>
+                <h3>Imagen 1</h3>
+                <img src="https://via.placeholder.com/400" alt="Imagen 1 ampliada">
+            </div>
+        </div>
+        <div id="modal8" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal8')">&times;</span>
+                <h3>Imagen 2</h3>
+                <img src="https://via.placeholder.com/400" alt="Imagen 2 ampliada">
+            </div>
+        </div>
+        <div id="modal9" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal9')">&times;</span>
+                <h3>Imagen 3</h3>
+                <img src="https://via.placeholder.com/400" alt="Imagen 3 ampliada">
+            </div>
+        </div>
+        <div id="modal10" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal10')">&times;</span>
+                <h3>Imagen 4</h3>
+                <img src="https://via.placeholder.com/400" alt="Imagen 4 ampliada">
+            </div>
+        </div>
+
+        <!-- Sección de Estadísticas -->
+        <section id="estadisticas" class="stats-section">
+            <h2>Estadísticas del Equipo</h2>
+            <div class="stats-container">
+                <div class="stat">
+                    <h3>Partidos</h3>
+                    <p>15</p>
+                </div>
+                <div class="stat">
+                    <h3>Victorias</h3>
+                    <p>10</p>
+                </div>
+                <div class="stat">
+                    <h3>Derrotas</h3>
+                    <p>5</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section id="contacto" class="contact-section">
+            <h2>Contacto</h2>
+            <div class="contact-container">
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo" required>
+                    
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                    
+                    <button type="submit" class="contact-button">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Pie de Página -->
+    <footer>
+
+        <p id="hastag">#GoVisions #VisionsUnity</p>
+        <p>&copy; 2024 Visions eSports. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="extras/visions_eSports.js"></script>
+</body>
+
+</html>
