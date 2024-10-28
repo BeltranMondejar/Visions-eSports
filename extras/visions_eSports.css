@@ -323,6 +323,7 @@ footer {
 
 .modal-content {
     background-color: #1e1e1e;
+    text-align: center;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
